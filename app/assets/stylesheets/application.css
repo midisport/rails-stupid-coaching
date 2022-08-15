@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+ p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: auto;
+  align-self: auto;
+  padding : 10px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  align-self: auto;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.treeview{
+  top:0;
+  bottom:0;
+  left:0;
+  border-left:10px  solid;
+}
+
+.treeview_fill{
+  top:0;
+  bottom:0;
+  left:0;
+  border-left:10px  solid;
+  background-color: rgb(202, 202, 108);
+}
